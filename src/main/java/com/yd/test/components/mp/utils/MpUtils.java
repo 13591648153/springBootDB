@@ -31,7 +31,7 @@ import com.yd.test.result.PageResponseBody;
  * @version $Revision 1.0.0 $ 2018年12月20日 上午9:23:27
  */
 public class MpUtils<T> {
-
+    //test
 	private static String[] oneParamMethods = {"isNull", "isNotNull"};
 	private static String[] oneDynamicParamMethods = {"orderByAsc", "orderByDesc"};
 	private static String[] twoParamMethods = {"eq", "ne", "like", "notLike", "likeLeft", "likeRight", "ge", "gt", "le", "lt"};
