@@ -25,7 +25,7 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: false
-    default-enum-type-handler: com.yd.test.components.mybatis.mp.handler.EnumTypeHandlerNeusoft
+    default-enum-type-handler: com.yd.test.components.mp.handler.EnumTypeHandlerTest
     #返回类型为HashMap，字段值为null时也返回字段
     call-setters-on-nulls: true
 

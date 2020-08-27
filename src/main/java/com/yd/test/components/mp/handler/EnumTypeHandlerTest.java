@@ -15,11 +15,11 @@ import org.apache.ibatis.type.JdbcType;
  * @author <a href="mailto:he.jf@neusoft.com">he.jf</a>
  * @version $Revision 1.0 $ 2019年2月27日 上午8:43:12
  */
-public class EnumTypeHandlerNeusoft<E extends Enum<E>> extends BaseTypeHandler<E> {
+public class EnumTypeHandlerTest<E extends Enum<E>> extends BaseTypeHandler<E> {
 
   private final Class<E> type;
 
-  public EnumTypeHandlerNeusoft(Class<E> type) {
+  public EnumTypeHandlerTest(Class<E> type) {
     if (type == null) {
       throw new IllegalArgumentException("Type argument cannot be null");
     }
