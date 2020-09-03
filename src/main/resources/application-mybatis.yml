@@ -1,8 +1,8 @@
 #mybatis
 mybatis-plus:
-  mapper-locations: classpath*:com/yd/test/*/dao/**/*Mapper.xml
+  mapper-locations: classpath*:com/yd/test/dao/**/*Mapper.xml
   #实体扫描，多个package用逗号或者分号分隔
-  typeAliasesPackage: com.yd.test.beans.model
+  typeAliasesPackage: com.yd.test.bean
   #typeEnumsPackage: com.yd.test.model.enums
   global-config:
     #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
